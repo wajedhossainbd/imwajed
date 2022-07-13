@@ -5,7 +5,10 @@
     box-sizing: border-box;
 }
 
-header {
+.header {
+    /* position: sticky;
+    z-index: 999;
+    top: -10px; */
     background-color: #ffffff;
     height: 100px;
     box-shadow: 0 -5px 20px -8px #000000;
@@ -122,4 +125,10 @@ nav {
     text-decoration: none;
     color: #ffffff;
     background-color: #39B04A;
+}
+
+
+.services {
+    background-color: #F8FBFF;
+    height: 500px;
 }
