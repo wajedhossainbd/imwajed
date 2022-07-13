@@ -1,0 +1,125 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    height: 100px;
+    box-shadow: 0 -5px 20px -8px #000000;
+}
+
+.logo-header {
+    padding-left: 350px;
+
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cv-button {
+
+    padding: 7px 15px;
+    margin-left: 100px;
+    background-color: #1E2832;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.nav-menu {
+    padding-right: 350px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-menu li a {
+    font-weight: 400;
+    text-decoration: none;
+    color: #1E2832;
+    position: relative;
+}
+
+.nav-menu li a:hover {
+    font-weight: 600;
+    color: #F47621;
+}
+
+.nav-menu li a::after {
+    content: '';
+    background: #39B04A;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: width 0.5s;
+
+}
+
+.nav-menu li a:hover::after {
+    width: 100%;
+}
+
+.banner {
+    padding-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+#intro {
+    font-size: 20px;
+    color: #39B04A;
+}
+
+#hello {
+    font-size: 50px;
+    color: #1E2832;
+}
+
+#name {
+    color: #1E2832;
+    font-size: 70px;
+}
+
+#name span {
+    color: #F47621;
+}
+
+#banner-anitext {
+    font-size: 40px;
+    color: #1E2832;
+    font-weight: 200;
+}
+
+#banner-anitext span {
+    font-weight: 800;
+}
+
+#banner-text {
+    width: 60%;
+    color: #1E2832;
+    font-size: 20px;
+}
+
+.get-started-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #39B04A;
+}
