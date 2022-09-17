@@ -8,6 +8,9 @@
     <title>Wajed | Your Trusted Business Partner</title>
     <link rel="shortcut icon" href="assets/images/Wajed Favicon WBG.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9c9a9877a1.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,112 +20,153 @@
 </head>
 
 <body>
-    <header class="header" id="myHeader">
-        <nav>
-            <a class="logo-header" href="/imwajed"><img src="assets/images/Header Logo.png"
-                    alt="Wajed Logo With Symbol W" /></a>
 
-            <ul class="nav-menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Shop</a></li>
-                <a class="cv-button" href="">Download CV</a>
-            </ul>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg py-3 shadow-sm bg-white">
+            <div class="container">
+                <div>
+                    <a class="navbar-brand text-dark fw-bold" href="index.html"><img src="assets/images/Header Logo.png"
+                            width="70" height="50" alt="Wajed Logo With Symbol W" /></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="nav  nav-menu">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <a class="cv-button" href="#">Download CV</a>
+                    </ul>
+                </div>
+            </div>
         </nav>
+        <section class="container d-flex justify-content-center" style="margin-top: 8rem;">
+            <div class="">
+                <p class="cs fs-5">-Introduction</p><br>
+                <h3 class="cs2 fs-1 mt-1">Hello,</h3>
+                <h1 class="name cs2">I'm <span class="cp fw-bold">WAJED</span></h1>
+                <p class="cs2 fw-light fs-1 my-5">Creative <Span class="fw-bold">Developer</Span></p>
+                <p class="bg-opacity-10 rounded-lg w-75 fs-6 fw-semibold text-opacity-25 cs2 mb-5"><i
+                        class="opacity-25 fa-solid fa-quote-left me-2"></i>A professional who has experience in
+                    Marketing & Technology. First I help myself to learn new things, then thrive to help Businesses to
+                    create stunning products, and services that make an impact on the market.<i
+                        class="opacity-25 fa-solid fa-quote-right ms-2"></i></p>
+
+                <a class="py-2 px-3 rounded text-decoration-none text-white" style="background-color: #39B04A;"
+                    href="">Let's Get Started</a>
+            </div>
+            <div class="banner-image img-fluid">
+                <img src="assets/images/wajed.png" alt="wajed_Banner Image">
+            </div>
+        </section>
     </header>
 
-    <section class="banner">
-        <div class="banner-content">
-            <p id="intro">-Introduction</p><br>
-            <h3 id="hello">Hello,</h3>
-            <h1 id="name">I'm <span>WAJED</span></h1><br><br>
-            <p id="banner-anitext">Creative <Span>Developer</Span></p><br>
-            <p id="banner-text">A professional who has experience in Marketing & Technology. First I help myself to
-                learn new things,
-                then thrive to help Businesses to create stunning products, and services that make an impact on the
-                market.</p><br><br><br>
 
-            <a class="get-started-button" href="">Let's Get Started</a>
-        </div>
-        <div class="banner-image">
-            <img src="assets/images/wajed.png" alt="">
-        </div>
-    </section>
 
-    <section class="services">
-        <h3>Services</h3>
-        <div class="services-content">
 
-            <h1>What I am Great at</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
-                electronic</p>
-        </div>
-        <div class="service-card">
-            <div class="scard">
-                <img src="assets/images/Frame 5.png" alt="UI/UX Icon"></img>
-                <h3>UI/UX Design</h3>
-                <p>45 Projects</p>
-            </div>
-            <div class="scard">
-                <img src="assets/images/Frame 6.png" alt="Web Icon"></img>
-                <h3>Web Development</h3>
-                <p>19 Projects</p>
-            </div>
-            <div class="scard">
-                <img src="assets/images/Frame 7.png" alt="Research Icon"></img>
-                <h3>Research</h3>
-                <p>35 Projects</p>
-            </div>
-            <div class="scard">
-                <img src="assets/images/Frame 8.png" alt="Marketing Icon"></img>
-                <h3>Marketing</h3>
-                <p>62 Projects</p>
-            </div>
-        </div>
+    <main>
 
-    </section>
 
-    <section class="social-wrapper-icons">
-        <div class="wrapper">
-            <div class="icon facebook">
-                <div class="tooltip">
-                    Facebook
-                </div>
-                <a href="https://www.facebook.com/hossain.wajed/" target="blank"><i class="fab fa-facebook-f"></i></a>
+        <section class="services">
+            <h3>Services</h3>
+            <div class="services-content">
+
+                <h1>What I am Great at</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into
+                    electronic</p>
             </div>
-            <div class="icon twitter">
-                <div class="tooltip">
-                    Twitter
+            <div class="service-card">
+                <div class="scard">
+                    <img src="assets/images/Frame 5.png" alt="UI/UX Icon"></img>
+                    <h3>UI/UX Design</h3>
+                    <p>45 Projects</p>
                 </div>
-                <a href="https://twitter.com/wajedhossainbd" target="blank"><i class="fab fa-twitter"></i></a>
-            </div>
-            <div class="icon instagram">
-                <div class="tooltip">
-                    Instagram
+                <div class="scard">
+                    <img src="assets/images/Frame 6.png" alt="Web Icon"></img>
+                    <h3>Web Development</h3>
+                    <p>19 Projects</p>
                 </div>
-                <a href="https://www.instagram.com/wajedhossainbd/" target="blank"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="icon github">
-                <div class="tooltip">
-                    Github
+                <div class="scard">
+                    <img src="assets/images/Frame 7.png" alt="Research Icon"></img>
+                    <h3>Research</h3>
+                    <p>35 Projects</p>
                 </div>
-                <a href="https://github.com/wajedhossainbd" target="blank"><i class="fab fa-github"></i></a>
-            </div>
-            <div class="icon youtube">
-                <div class="tooltip">
-                    YouTube
+                <div class="scard">
+                    <img src="assets/images/Frame 8.png" alt="Marketing Icon"></img>
+                    <h3>Marketing</h3>
+                    <p>62 Projects</p>
                 </div>
-                <a href="https://www.youtube.com/channel/UC8Wb7EzGCt4IgqnES1cG8mA/featured" target="blank"><i
-                        class="fab fa-youtube"></i></a>
             </div>
-        </div>
-    </section>
+
+        </section>
+
+        <section class="social-wrapper-icons">
+            <div class="wrapper">
+                <div class="icon facebook">
+                    <div class="tooltip">
+                        Facebook
+                    </div>
+                    <a href="https://www.facebook.com/hossain.wajed/" target="blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="icon twitter">
+                    <div class="tooltip">
+                        Twitter
+                    </div>
+                    <a href="https://twitter.com/wajedhossainbd" target="blank"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="icon instagram">
+                    <div class="tooltip">
+                        Instagram
+                    </div>
+                    <a href="https://www.instagram.com/wajedhossainbd/" target="blank"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+                <div class="icon github">
+                    <div class="tooltip">
+                        Github
+                    </div>
+                    <a href="https://github.com/wajedhossainbd" target="blank"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="icon youtube">
+                    <div class="tooltip">
+                        YouTube
+                    </div>
+                    <a href="https://www.youtube.com/channel/UC8Wb7EzGCt4IgqnES1cG8mA/featured" target="blank"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
